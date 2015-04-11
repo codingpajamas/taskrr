@@ -35,3 +35,5 @@ Check your browser for the realtime activity of your task server.
 
 #### Email task example
 There are ```emailcreatejobs.js``` and ```emailexecjobs.js``` to demonstrate a basic email task using nodemailer.
+
+Read the comments in ```fakecreatejob.js``` and ```fakeexecjob.js``` for more details.
