@@ -29,7 +29,7 @@ To process the jobs in queue (consumer), open another terminal and run
 node fakeexecjob
 ~~~
 
-You can run several **consumer** in parallel by running ```node fakeexecjob``` in multiple terminal. They will never have conflict in which job is to process.
+You can run several **consumer** in parallel by running ```node fakeexecjob``` in multiple terminal. They will never conflict in which job is to process.
 
 Check your browser for the realtime activity of your task server.
 
