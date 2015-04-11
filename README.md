@@ -17,17 +17,19 @@ node viewjobs
 
 Then browse to ```localhost:3000```. You can configure the port it 3000 is not available.
 
-To create jobs and put them in queue (producer), run
+To create jobs and put them in queue (producer), open another terminal and run
 
 ~~~
 node fakecreatejob
 ~~~
 
-To process the jobs in queue (consumer), run 
+To process the jobs in queue (consumer), open another terminal and run 
 
 ~~~
 node fakeexecjob
 ~~~
+
+You can run several **consumer** in parallel by running ```node fakeexecjob``` in multiple terminal. They will never have conflict in which job is to process.
 
 Check your browser for the realtime activity of your task server.
 
