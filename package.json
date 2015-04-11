@@ -1,0 +1,19 @@
+{
+  "name": "taskrr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "viewjobs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "task",
+    "server"
+  ],
+  "author": "ikko",
+  "license": "ISC",
+  "dependencies": {
+    "kue": "^0.8.12",
+    "nodemailer": "^1.3.2"
+  }
+}
